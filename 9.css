@@ -52,4 +52,27 @@ main{
   padding: 3px;
 }
 .title{
-  margin: 15px 0 5px;
+  margin: 15px 0 5px;}
+
+@media screen and (max-width:768px) {
+	main {
+		width:100%;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	.box {
+		float: none;
+		margin: 0 auto 20px;
+	}
+.text {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.box:last-child{
+	margin-bottom: 0px;
+}
+.box:last-child{
+	margin: 0 auto;
+}
+}
